@@ -1,0 +1,117 @@
+﻿<Window x:Class="Database.View.VerMensagem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Database.View"
+        Icon="pack://application:,,,/Image/mailBox.ico"
+        Title="Bank MailBox"
+        WindowStartupLocation="CenterScreen"
+        MinHeight="650"
+        MinWidth="1150"
+        PreviewKeyDown="Window_PreviewKeyDown">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0,1" StartPoint="1,0.3" Opacity="0.7">
+                <GradientStop Color="DarkGray" Offset="0"/>
+                <GradientStop Color="Gray" Offset="0.2"/>
+                <GradientStop Color="White" Offset="1"/>
+
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+
+            <ColumnDefinition >
+
+            </ColumnDefinition >
+            <ColumnDefinition >
+
+            </ColumnDefinition>
+            <ColumnDefinition >
+
+            </ColumnDefinition>
+
+            <ColumnDefinition >
+
+
+            </ColumnDefinition>
+
+            <ColumnDefinition >
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="20" >
+
+            </ColumnDefinition>
+            <ColumnDefinition >
+
+            </ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition Height="20">
+
+            </RowDefinition>
+            <RowDefinition >
+
+            </RowDefinition>
+            <RowDefinition Height="20">
+
+            </RowDefinition>            
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition >
+
+            </RowDefinition>
+            <RowDefinition Height="20">
+
+            </RowDefinition>
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition  Height="20">
+
+            </RowDefinition>
+            <RowDefinition>
+
+            </RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="6" Grid.RowSpan="11" RadiusX="30" RadiusY="30" Stroke="DarkGray" StrokeThickness="4" Fill="WhiteSmoke"></Rectangle>
+        <Label x:Name="Titulo" Content="Ver Mensagem" FontFamily="Comic Sans MS" FontSize="35" Grid.Column="3" Grid.ColumnSpan="4" Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+        <Label x:Name="lbDestination"  Content="Para:" FontSize="14" Grid.Column="3" Grid.Row="4" Margin="10" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="txtDestino"  IsReadOnly="True" FontSize="14" Text="{Binding SelectedMail.UserDestino}" Margin="10" Grid.Column="4" Grid.ColumnSpan="3" Grid.Row="4" VerticalContentAlignment="Center"/>
+
+        <Label x:Name="lbAssunto" Content="Assunto:" FontSize="14" Grid.Column="3" Grid.Row="5" Margin="10" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="txtAssunto" IsReadOnly="True" FontSize="14" Text="{Binding SelectedMail.Titulo}" Margin="10" Grid.Column="4" MaxLength="50" Grid.ColumnSpan="3" Grid.Row="5" VerticalContentAlignment="Center" />
+
+        <Label x:Name="lbMensagem" Content="Mensagem:" FontSize="14" Grid.Column="3" Grid.Row="6" Margin="10"   HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="txtMensagem" IsReadOnly="True" FontSize="12" Text="{Binding SelectedMail.Corpo}" AcceptsReturn="True" Margin="10" Grid.Column="4" Grid.ColumnSpan="3" Grid.Row="6" Grid.RowSpan="3" ></TextBox>
+
+        <Button x:Name="bttResponder" Margin="10" Content="Responder" Grid.Column="3" FontSize="14" Grid.Row="10" Grid.ColumnSpan="2" Click="btnClick_Responder"/>
+        <Button x:Name="bttVoltar" Margin="10" Content="Voltar"  Grid.Column="5" FontSize="14" Grid.Row="10" Grid.ColumnSpan="2" Click="btnClick_Voltar"/>
+    </Grid>
+</Window>

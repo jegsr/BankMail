@@ -1,0 +1,165 @@
+﻿<Window x:Class="Database.View.Tarefas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Database.View"
+        Icon="pack://application:,,,/Image/mailBox.ico"
+        Title="Bank MailBox"
+        WindowStartupLocation="CenterScreen"
+        MinHeight="600"
+        MinWidth="1120"
+        PreviewKeyDown="Window_PreviewKeyDown" >
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0,1" StartPoint="1,0.3" Opacity="0.7">
+                <GradientStop Color="DarkGray" Offset="0"/>
+                <GradientStop Color="Gray" Offset="0.2"/>
+                <GradientStop Color="White" Offset="1"/>
+
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition >
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="30">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20">
+
+            </RowDefinition>
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition Height="20">
+
+            </RowDefinition>
+            <RowDefinition Height="30">
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition >
+            <RowDefinition Height="50" >
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition >
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition>
+            <RowDefinition Height="20">
+
+            </RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="14" Fill="WhiteSmoke"></Rectangle>
+        <Label Grid.Row="1" Content="Tarefas"  FontFamily="Comic Sans MS" FontSize="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" Grid.ColumnSpan="3"></Label>
+
+        <Menu Background="Transparent" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="4" Grid.RowSpan="5">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel Orientation="Vertical" />
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+
+            <MenuItem Padding="20,0,20,0" Header="Adicionar Tarefa" Height="50" FontSize="15" Click="Adicionar_Click" />
+        </Menu>
+
+        <Menu Background="Transparent" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="10">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel Orientation="Vertical" />
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem Padding="20,0,20,0" Header="Voltar" Height="50" FontSize="15" Click="Voltar_Click"/>
+        </Menu>
+
+        <ToolBar Grid.Column="6" Grid.Row="3" Grid.ColumnSpan="11" Background="WhiteSmoke" VerticalContentAlignment="Center">
+            <Button x:Name="Ver" Margin="20,0,20,0" Content="Ver Tarefa" Command="{Binding SeeTarefa}" Click="Ver_Click"/>
+            <Button x:Name="Editar" Margin="20,0,20,0" Content="Editar Tarefa" Command="{Binding SeeTarefa}" Click="Editar_Click"/>
+            <Button x:Name="Eliminar" Margin="20,0,20,0" Content="Eliminar Tarefa"   Command="{Binding DelTarefa}"/>
+            <TextBox x:Name="txtSearch" Margin="20,0,20,0" Padding="20,0,0,0" BorderBrush="Gray"  Text="{Binding PesquisaMensagensNaoLida, UpdateSourceTrigger=PropertyChanged}"  Width="300">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Image/search.ico" Stretch="Uniform" AlignmentX="Left"/>
+                </TextBox.Background>
+            </TextBox>
+        </ToolBar>
+        <ListView x:Name="ltView" Grid.Column="6" Grid.ColumnSpan="11" Grid.Row="4" Grid.RowSpan="7" ItemsSource="{Binding ListTarefas, IsAsync=True}" SelectedItem="{Binding SelectedTarefa}">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <EventSetter Event="MouseDoubleClick" Handler="Ver_Click" />
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView x:Name="gvMembers" AllowsColumnReorder="False">
+                    <GridViewColumn Header="Id" Width="70" DisplayMemberBinding="{Binding Id}"></GridViewColumn>
+                    <GridViewColumn Header="Assunto" Width="250"  DisplayMemberBinding="{Binding Nome}"></GridViewColumn>
+                    <GridViewColumn Header="Data" Width="auto" DisplayMemberBinding="{Binding Data}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

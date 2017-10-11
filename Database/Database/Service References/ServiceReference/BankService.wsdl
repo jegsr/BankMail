@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BankService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:63894/BankService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:63894/BankService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:63894/BankService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/BankService.Model" />
+      <xsd:import schemaLocation="http://localhost:63894/BankService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBankService_AddRegisto_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddRegisto" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_AddRegisto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddRegistoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CheckLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckLogin" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CheckLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_EditarUtilizador_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditarUtilizador" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_EditarUtilizador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditarUtilizadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxReceber_InputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxReceber" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxReceber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxReceberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxLidas_InputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxLidas" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxLidas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxLidasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxEnviadas_InputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxEnviadas" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxEnviadas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxEnviadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxRascunhos_InputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxRascunhos" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxRascunhos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxRascunhosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxEliminados_InputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxEliminados" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_CountMailBoxEliminados_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CountMailBoxEliminadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_AddMail_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddMail" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_AddMail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_DelMail_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelMail" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_DelMail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_VerMail_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerMail" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_VerMail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SaveMail_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMail" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SaveMail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_DelContato_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelContato" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_DelContato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelContatoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_AddContato_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddContato" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_AddContato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddContatoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_GetUtilizadores_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUtilizadores" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_GetUtilizadores_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUtilizadoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMeusContatos_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMeusContatos" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMeusContatos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMeusContatosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensNaoLidas_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensNaoLidas" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensNaoLidas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensNaoLidasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensLidas_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensLidas" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensLidas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensLidasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensEnviadas_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensEnviadas" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensEnviadas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensEnviadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensRascunhos_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensRascunhos" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensRascunhos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensRascunhosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensEliminados_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensEliminados" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_SearchMensagensEliminados_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchMensagensEliminadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_DelUtilizador_InputMessage">
+    <wsdl:part name="parameters" element="tns:DelUtilizador" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_DelUtilizador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelUtilizadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_GetEmailContactos_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmailContactos" />
+  </wsdl:message>
+  <wsdl:message name="IBankService_GetEmailContactos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmailContactosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IBankService">
+    <wsdl:operation name="AddRegisto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/AddRegisto" message="tns:IBankService_AddRegisto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/AddRegistoResponse" message="tns:IBankService_AddRegisto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/CheckLogin" message="tns:IBankService_CheckLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/CheckLoginResponse" message="tns:IBankService_CheckLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarUtilizador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/EditarUtilizador" message="tns:IBankService_EditarUtilizador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/EditarUtilizadorResponse" message="tns:IBankService_EditarUtilizador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxReceber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/CountMailBoxReceber" message="tns:IBankService_CountMailBoxReceber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/CountMailBoxReceberResponse" message="tns:IBankService_CountMailBoxReceber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxLidas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/CountMailBoxLidas" message="tns:IBankService_CountMailBoxLidas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/CountMailBoxLidasResponse" message="tns:IBankService_CountMailBoxLidas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxEnviadas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/CountMailBoxEnviadas" message="tns:IBankService_CountMailBoxEnviadas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/CountMailBoxEnviadasResponse" message="tns:IBankService_CountMailBoxEnviadas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxRascunhos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/CountMailBoxRascunhos" message="tns:IBankService_CountMailBoxRascunhos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/CountMailBoxRascunhosResponse" message="tns:IBankService_CountMailBoxRascunhos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxEliminados">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/CountMailBoxEliminados" message="tns:IBankService_CountMailBoxEliminados_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/CountMailBoxEliminadosResponse" message="tns:IBankService_CountMailBoxEliminados_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/AddMail" message="tns:IBankService_AddMail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/AddMailResponse" message="tns:IBankService_AddMail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelMail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/DelMail" message="tns:IBankService_DelMail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/DelMailResponse" message="tns:IBankService_DelMail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerMail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/VerMail" message="tns:IBankService_VerMail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/VerMailResponse" message="tns:IBankService_VerMail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/SaveMail" message="tns:IBankService_SaveMail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/SaveMailResponse" message="tns:IBankService_SaveMail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelContato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/DelContato" message="tns:IBankService_DelContato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/DelContatoResponse" message="tns:IBankService_DelContato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddContato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/AddContato" message="tns:IBankService_AddContato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/AddContatoResponse" message="tns:IBankService_AddContato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUtilizadores">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/GetUtilizadores" message="tns:IBankService_GetUtilizadores_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/GetUtilizadoresResponse" message="tns:IBankService_GetUtilizadores_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchMeusContatos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/SearchMeusContatos" message="tns:IBankService_SearchMeusContatos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/SearchMeusContatosResponse" message="tns:IBankService_SearchMeusContatos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensNaoLidas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/SearchMensagensNaoLidas" message="tns:IBankService_SearchMensagensNaoLidas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/SearchMensagensNaoLidasResponse" message="tns:IBankService_SearchMensagensNaoLidas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensLidas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/SearchMensagensLidas" message="tns:IBankService_SearchMensagensLidas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/SearchMensagensLidasResponse" message="tns:IBankService_SearchMensagensLidas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensEnviadas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/SearchMensagensEnviadas" message="tns:IBankService_SearchMensagensEnviadas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/SearchMensagensEnviadasResponse" message="tns:IBankService_SearchMensagensEnviadas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensRascunhos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/SearchMensagensRascunhos" message="tns:IBankService_SearchMensagensRascunhos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/SearchMensagensRascunhosResponse" message="tns:IBankService_SearchMensagensRascunhos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensEliminados">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/SearchMensagensEliminados" message="tns:IBankService_SearchMensagensEliminados_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/SearchMensagensEliminadosResponse" message="tns:IBankService_SearchMensagensEliminados_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DelUtilizador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/DelUtilizador" message="tns:IBankService_DelUtilizador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/DelUtilizadorResponse" message="tns:IBankService_DelUtilizador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailContactos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBankService/GetEmailContactos" message="tns:IBankService_GetEmailContactos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBankService/GetEmailContactosResponse" message="tns:IBankService_GetEmailContactos_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IBankService" type="tns:IBankService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddRegisto">
+      <soap:operation soapAction="http://tempuri.org/IBankService/AddRegisto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLogin">
+      <soap:operation soapAction="http://tempuri.org/IBankService/CheckLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarUtilizador">
+      <soap:operation soapAction="http://tempuri.org/IBankService/EditarUtilizador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxReceber">
+      <soap:operation soapAction="http://tempuri.org/IBankService/CountMailBoxReceber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxLidas">
+      <soap:operation soapAction="http://tempuri.org/IBankService/CountMailBoxLidas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxEnviadas">
+      <soap:operation soapAction="http://tempuri.org/IBankService/CountMailBoxEnviadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxRascunhos">
+      <soap:operation soapAction="http://tempuri.org/IBankService/CountMailBoxRascunhos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CountMailBoxEliminados">
+      <soap:operation soapAction="http://tempuri.org/IBankService/CountMailBoxEliminados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMail">
+      <soap:operation soapAction="http://tempuri.org/IBankService/AddMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelMail">
+      <soap:operation soapAction="http://tempuri.org/IBankService/DelMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerMail">
+      <soap:operation soapAction="http://tempuri.org/IBankService/VerMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMail">
+      <soap:operation soapAction="http://tempuri.org/IBankService/SaveMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelContato">
+      <soap:operation soapAction="http://tempuri.org/IBankService/DelContato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddContato">
+      <soap:operation soapAction="http://tempuri.org/IBankService/AddContato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtilizadores">
+      <soap:operation soapAction="http://tempuri.org/IBankService/GetUtilizadores" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchMeusContatos">
+      <soap:operation soapAction="http://tempuri.org/IBankService/SearchMeusContatos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensNaoLidas">
+      <soap:operation soapAction="http://tempuri.org/IBankService/SearchMensagensNaoLidas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensLidas">
+      <soap:operation soapAction="http://tempuri.org/IBankService/SearchMensagensLidas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensEnviadas">
+      <soap:operation soapAction="http://tempuri.org/IBankService/SearchMensagensEnviadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensRascunhos">
+      <soap:operation soapAction="http://tempuri.org/IBankService/SearchMensagensRascunhos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchMensagensEliminados">
+      <soap:operation soapAction="http://tempuri.org/IBankService/SearchMensagensEliminados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelUtilizador">
+      <soap:operation soapAction="http://tempuri.org/IBankService/DelUtilizador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailContactos">
+      <soap:operation soapAction="http://tempuri.org/IBankService/GetEmailContactos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BankService">
+    <wsdl:port name="BasicHttpBinding_IBankService" binding="tns:BasicHttpBinding_IBankService">
+      <soap:address location="http://localhost:63894/BankService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

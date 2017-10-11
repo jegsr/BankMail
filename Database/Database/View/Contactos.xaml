@@ -1,0 +1,160 @@
+﻿<Window x:Class="Database.View.Contactos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+        xmlns:local="clr-namespace:Database.View"
+        Icon="pack://application:,,,/Image/mailBox.ico"
+        Title="Bank MailBox"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        PreviewKeyDown="Window_PreviewKeyDown">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0,1" StartPoint="1,0.3" Opacity="0.7">
+                <GradientStop Color="DarkGray" Offset="0"/>
+                <GradientStop Color="Gray" Offset="0.2"/>
+                <GradientStop Color="White" Offset="1"/>
+
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition >
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="30">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20">
+
+            </RowDefinition>
+            <RowDefinition Height="70">
+
+            </RowDefinition>
+            <RowDefinition Height="20">
+
+            </RowDefinition>
+            <RowDefinition Height="30">
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition >
+            <RowDefinition Height="50" >
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition >
+            <RowDefinition>
+
+            </RowDefinition>
+            <RowDefinition Height="50">
+
+            </RowDefinition>
+            <RowDefinition Height="20">
+
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="14" Fill="WhiteSmoke"></Rectangle>
+        <Label Grid.Row="1" Content="Contatos"  FontFamily="Comic Sans MS" FontSize="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" Grid.ColumnSpan="3"></Label>
+        
+
+        <Menu Background="Transparent" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="10">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel Orientation="Vertical" />
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem Padding="20,0,20,0" Header="Voltar" Height="50" FontSize="15" Click="btnClick_Voltar"/>
+        </Menu>
+
+        <Rectangle Grid.Column="6" Grid.Row="1" Grid.ColumnSpan="7" Fill="WhiteSmoke" RadiusX="25" RadiusY="25" ></Rectangle>
+        <Label x:Name="lbContactos"  Content="Procurar Contatos:" Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="1" Margin="10" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <toolkit:AutoCompleteBox x:Name="autoComplete" SelectedItem="{Binding SelectedUtilizadorAdicionar, Mode=TwoWay}"  IsTextCompletionEnabled="false"  
+                                 ValueMemberPath="Email" ItemFilter="{Binding UtilizadorFilter}"  Grid.Column="8" Grid.Row="1" Grid.ColumnSpan="3"
+                                 Margin="23" ItemsSource="{Binding ListUtilizadores}" PreviewKeyDown="Window_PreviewKeyDown"  VerticalContentAlignment="Center" HorizontalContentAlignment="Left">
+            <toolkit:AutoCompleteBox.ItemTemplate>
+                    <DataTemplate >
+                        <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding Nome}" Width="100" />
+                        <Label Content="{Binding Email}" FontStyle="Italic" Foreground="DarkGray" />           
+                        </StackPanel>
+                    </DataTemplate>
+                </toolkit:AutoCompleteBox.ItemTemplate>
+        </toolkit:AutoCompleteBox>
+            <Button x:Name="bttAddContato" Margin="23" Content="Adicionar Contato" Grid.Column="11" Grid.ColumnSpan="2" Grid.Row="1" Command="{Binding AddContato}"/>
+        
+        <ToolBar Grid.Column="6" Grid.Row="3" Grid.ColumnSpan="7" Background="WhiteSmoke" VerticalContentAlignment="Center">
+            <Button x:Name="btnDelete" Margin="20,0,20,0" Content="Apagar Contacto" Command="{Binding DelContato}"/>
+            <Button x:Name="btnVerPerfil" Margin="20,0,20,0" Content="Ver Perfil" Command="{Binding SeePerfil}" Click="btnVer_Perfil_click"/>
+            <TextBox x:Name="txtSearch" Margin="20,0,20,0" Padding="20,0,0,0" BorderBrush="Gray" VerticalContentAlignment="Center"  FontSize="12" Text="{Binding PesquisaContactos, UpdateSourceTrigger=PropertyChanged}"  Width="300">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Image/search.ico" Stretch="Uniform" AlignmentX="Left"/>
+                </TextBox.Background>
+            </TextBox>
+        </ToolBar>
+        <ListView x:Name="ltViewContactos" Grid.Column="6" Grid.ColumnSpan="7" Grid.Row="4" Grid.RowSpan="7" ItemsSource="{Binding ContactosAdicionados, IsAsync=True}" SelectedItem="{Binding SelectedContacto}">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <EventSetter Event="MouseDoubleClick" Handler="doube_click_event" />
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View >
+                <GridView x:Name="gvMembers" AllowsColumnReorder="False">
+                    <GridViewColumn Header="Username" Width="180" DisplayMemberBinding="{Binding Username}"></GridViewColumn>
+                    <GridViewColumn Header="Nome" Width="180" DisplayMemberBinding="{Binding Nome}"></GridViewColumn>
+                    <GridViewColumn Header="Email" Width="150" DisplayMemberBinding="{Binding Email}"></GridViewColumn>
+                    <GridViewColumn Header="Telemovel" Width="auto" DisplayMemberBinding="{Binding Telemovel}"></GridViewColumn>
+                    <GridViewColumn Header="Data de Registo" Width="auto" DisplayMemberBinding="{Binding DataRegisto}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

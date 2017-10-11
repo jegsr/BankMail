@@ -1,0 +1,363 @@
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\bin\Debug\Database.exe.config
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\bin\Debug\Database.exe
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\bin\Debug\Database.pdb
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\bin\Debug\EntityFramework.dll
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\bin\Debug\EntityFramework.xml
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\App.g.cs
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\Database_MarkupCompile.cache
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\Database_MarkupCompile.lref
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\Database.g.resources
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\Database.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\Database.exe
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\Database.pdb
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\View\NovaMensagem.g.cs
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\View\NovaMensagem.baml
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\View\MailBox.g.cs
+c:\users\asus\documents\visual studio 2015\Projects\Database\Database\obj\Debug\View\MailBox.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\Database.exe.config
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\Database.exe
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\Database.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\Database.exe
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\Database.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\EntityFramework.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\EntityFramework.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\MailBox.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\NovaMensagem.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\App.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\Database_MarkupCompile.cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\Database_MarkupCompile.lref
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\MailBox.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\NovaMensagem.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\Database.g.resources
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\Database.Properties.Resources.resources
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Login.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Registo.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Login.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Registo.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Perfil.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Perfil.baml
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\Database.exe.config
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\Database.exe
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\Database.pdb
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\Database.exe
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\Database.pdb
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Login.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\MailBox.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\NovaMensagem.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Perfil.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Registo.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\App.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\Database_MarkupCompile.cache
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\Database_MarkupCompile.lref
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Login.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\MailBox.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\NovaMensagem.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Perfil.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Registo.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\Database.g.resources
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\Database.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Desktop\Database\Database\bin\Debug\Database.exe.config
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\Database.exe
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\Database.pdb
+C:\Users\Eduardo\Desktop\Database\Database\bin\Debug\Database.exe
+C:\Users\Eduardo\Desktop\Database\Database\bin\Debug\Database.pdb
+C:\Users\Eduardo\Desktop\Database\Database\bin\Debug\EntityFramework.dll
+C:\Users\Eduardo\Desktop\Database\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Eduardo\Desktop\Database\Database\bin\Debug\EntityFramework.xml
+C:\Users\Eduardo\Desktop\Database\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\Login.g.cs
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\MailBox.g.cs
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\NovaMensagem.g.cs
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\Perfil.g.cs
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\Registo.g.cs
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\App.g.cs
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\Database_MarkupCompile.cache
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\Database_MarkupCompile.lref
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\Login.baml
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\MailBox.baml
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\NovaMensagem.baml
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\Perfil.baml
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\Registo.baml
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\Database.g.resources
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\Database.Properties.Resources.resources
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\Contactos.g.cs
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\Contactos.baml
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\MeusContactos.g.cs
+C:\Users\Eduardo\Desktop\Database\Database\obj\Debug\View\MeusContactos.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Contactos.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Contactos.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Contactos.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\MeusContactos.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Contactos.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\MeusContactos.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\ApplicationInsights.config
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\BankService.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\BankService.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\ContactosReport.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\ContactosReport.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\RdlCompile.cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\RdlCompile.compiled
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\PerfilEdit.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\PerfilEdit.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\VerMensagem.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\VerMensagem.baml
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\Database.exe.config
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\Database.exe
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\Database.pdb
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\ApplicationInsights.config
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\Database.exe
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\Database.pdb
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\BankService.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\BankService.pdb
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Contactos.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\ContactosReport.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Login.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\MailBox.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\MeusContactos.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\NovaMensagem.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Perfil.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\PerfilEdit.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Registo.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\VerMensagem.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\App.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\Database_MarkupCompile.cache
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\Database_MarkupCompile.lref
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Contactos.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\ContactosReport.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Login.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\MailBox.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\MeusContactos.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\NovaMensagem.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Perfil.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\PerfilEdit.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Registo.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\VerMensagem.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\Database.g.resources
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\Database.Properties.Resources.resources
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\RdlCompile.cache
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\RdlCompile.compiled
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\EmailReport.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Tarefas.g.cs
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\VerTarefa.g.cs
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\EmailReport.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\Tarefas.baml
+C:\Users\ASUS\Documents\Database\Database\obj\Debug\View\VerTarefa.baml
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\ASUS\Documents\Database\Database\bin\Debug\WPFToolkit.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\WPFToolkit.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\EmailReport.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Tarefas.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\VerTarefa.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\EmailReport.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\Tarefas.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\Database\obj\Debug\View\VerTarefa.baml
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\ApplicationInsights.config
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\BankService.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\WPFToolkit.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\BankService.pdb
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\ContactosReport.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\EmailReport.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\PerfilEdit.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Tarefas.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\VerMensagem.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\VerTarefa.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\ContactosReport.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\EmailReport.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\PerfilEdit.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\Tarefas.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\VerMensagem.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\VerTarefa.baml
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\RdlCompile.cache
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\RdlCompile.compiled
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\AdicionarTarefa.g.cs
+C:\Users\ASUS\Desktop\Database\Database\obj\Debug\View\AdicionarTarefa.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\Database.exe.config
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\Database.exe
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\Database.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\ApplicationInsights.config
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\Database.exe
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\Database.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\BankService.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\EntityFramework.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\WPFToolkit.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\BankService.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\EntityFramework.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\AdicionarTarefa.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Contactos.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\ContactosReport.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\EmailReport.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Login.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\MailBox.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\NovaMensagem.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Perfil.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\PerfilEdit.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Registo.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Tarefas.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\VerMensagem.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\VerTarefa.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\App.g.cs
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\Database_MarkupCompile.cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\Database_MarkupCompile.lref
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\AdicionarTarefa.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Contactos.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\ContactosReport.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\EmailReport.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Login.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\MailBox.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\NovaMensagem.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Perfil.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\PerfilEdit.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Registo.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\Tarefas.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\VerMensagem.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\View\VerTarefa.baml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\Database.g.resources
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\Database.Properties.Resources.resources
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\RdlCompile.cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\Database\obj\Debug\RdlCompile.compiled
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\Database.exe.config
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\Database.exe
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\Database.pdb
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\ApplicationInsights.config
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\Database.exe
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\Database.pdb
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\BankService.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\WPFToolkit.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\BankService.pdb
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\AdicionarTarefa.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Contactos.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\ContactosReport.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\EmailReport.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Login.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\MailBox.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\NovaMensagem.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Perfil.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\PerfilEdit.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Registo.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Tarefas.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\VerMensagem.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\VerTarefa.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\App.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\Database_MarkupCompile.cache
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\Database_MarkupCompile.lref
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\AdicionarTarefa.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Contactos.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\ContactosReport.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\EmailReport.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Login.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\MailBox.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\NovaMensagem.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Perfil.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\PerfilEdit.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Registo.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\Tarefas.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\VerMensagem.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\VerTarefa.baml
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\Database.g.resources
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\Database.Properties.Resources.resources
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\RdlCompile.cache
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\RdlCompile.compiled
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\VerPerfil.g.cs
+C:\Users\ASUS\Documents\LDS_Project\Database\Database\obj\Debug\View\VerPerfil.baml
+C:\Users\ASUS\Desktop\LDS_8140390_8140166\Database\Database\bin\Debug\Database.exe.config
+C:\Users\ASUS\Desktop\LDS_8140390_8140166\Database\Database\obj\Debug\Database.exe
+C:\Users\ASUS\Desktop\LDS_8140390_8140166\Database\Database\obj\Debug\Database.pdb

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BankServiceModelStoreContainer" CdmEntityContainer="BankServiceEntities">
+    <EntitySetMapping Name="Contatoes">
+      <EntityTypeMapping TypeName="BankServiceModel.Contatoes">
+        <MappingFragment StoreEntitySet="Contatoes">
+          <ScalarProperty Name="UsernameOrigem" ColumnName="UsernameOrigem" />
+          <ScalarProperty Name="UsernameDestino" ColumnName="UsernameDestino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mensagems">
+      <EntityTypeMapping TypeName="BankServiceModel.Mensagems">
+        <MappingFragment StoreEntitySet="Mensagems">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserOrigem" ColumnName="UserOrigem" />
+          <ScalarProperty Name="UserDestimo" ColumnName="UserDestimo" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Corpo" ColumnName="Corpo" />
+          <ScalarProperty Name="Flag" ColumnName="Flag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Utilizadors">
+      <EntityTypeMapping TypeName="BankServiceModel.Utilizadors">
+        <MappingFragment StoreEntitySet="Utilizadors">
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DataRegisto" ColumnName="DataRegisto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

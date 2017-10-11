@@ -1,0 +1,115 @@
+C:\Users\ASUS\Desktop\Database\BankService\bin\ApplicationInsights.config
+C:\Users\ASUS\Desktop\Database\BankService\bin\BankService.dll.config
+C:\Users\ASUS\Desktop\Database\BankService\bin\BankService.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\BankService.pdb
+C:\Users\ASUS\Desktop\Database\BankService\bin\EntityFramework.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.Web.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ASUS\Desktop\Database\BankService\bin\EntityFramework.xml
+C:\Users\ASUS\Desktop\Database\BankService\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.Web.xml
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ASUS\Desktop\Database\BankService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ASUS\Desktop\Database\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\Database\BankService\obj\Debug\BankService.dll
+C:\Users\ASUS\Desktop\Database\BankService\obj\Debug\BankService.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\ApplicationInsights.config
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\BankService.dll.config
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\BankService.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\BankService.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\EntityFramework.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\EntityFramework.SqlServer.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.Web.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\EntityFramework.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\EntityFramework.SqlServer.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.Web.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\obj\Debug\BankService.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\Database\BankService\obj\Debug\BankService.pdb
+C:\Users\ASUS\Documents\Database\BankService\bin\ApplicationInsights.config
+C:\Users\ASUS\Documents\Database\BankService\bin\BankService.dll.config
+C:\Users\ASUS\Documents\Database\BankService\bin\BankService.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\BankService.pdb
+C:\Users\ASUS\Documents\Database\BankService\bin\EntityFramework.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.Web.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ASUS\Documents\Database\BankService\bin\EntityFramework.xml
+C:\Users\ASUS\Documents\Database\BankService\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.Web.xml
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ASUS\Documents\Database\BankService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ASUS\Documents\Database\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Database\BankService\obj\Debug\BankService.dll
+C:\Users\ASUS\Documents\Database\BankService\obj\Debug\BankService.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\ApplicationInsights.config
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\BankService.dll.config
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\BankService.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\BankService.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\EntityFramework.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\EntityFramework.SqlServer.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.Web.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\EntityFramework.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\EntityFramework.SqlServer.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.Web.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\obj\Debug\BankService.dll
+C:\Users\Eduardo\Documents\Visual Studio 2015\Projects\LDS_Project\Database\BankService\obj\Debug\BankService.pdb
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\ApplicationInsights.config
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\BankService.dll.config
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\BankService.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\BankService.pdb
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\EntityFramework.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.Web.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\EntityFramework.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.Web.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\obj\Debug\BankService.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\obj\Debug\BankService.dll
+C:\Users\ASUS\Documents\LDS_Project\Database\BankService\obj\Debug\BankService.pdb

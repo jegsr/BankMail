@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BankServiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Contatoes">
+    <Key>
+      <PropertyRef Name="UsernameOrigem" />
+      <PropertyRef Name="UsernameDestino" />
+    </Key>
+    <Property Name="UsernameOrigem" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UsernameDestino" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Mensagems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserOrigem" Type="nvarchar(max)" />
+    <Property Name="UserDestimo" Type="nvarchar(max)" />
+    <Property Name="Data" Type="datetime" Nullable="false" />
+    <Property Name="Titulo" Type="nvarchar(max)" />
+    <Property Name="Corpo" Type="nvarchar(max)" />
+    <Property Name="Flag" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Utilizadors">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" />
+    <Property Name="Nome" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="DataRegisto" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BankServiceModelStoreContainer">
+    <EntitySet Name="Contatoes" EntityType="Self.Contatoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Mensagems" EntityType="Self.Mensagems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Utilizadors" EntityType="Self.Utilizadors" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
